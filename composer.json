@@ -1,8 +1,8 @@
 {
-  "name": "unforge/cache-toolkit",
-  "description": "Cache Toolkit",
+  "name": "unforge/cache-memcached-toolkit",
+  "description": "Cache Memcached Toolkit",
   "type": "library",
-  "homepage": "https://github.com/unforge/cache-toolkit",
+  "homepage": "https://github.com/unforge/cache-memcached-toolkit",
   "license": "MIT",
   "authors": [
     {
@@ -12,10 +12,9 @@
   ],
   "require": {
     "php": ">=7.1",
-    "unforge/configurator-toolkit": "dev-master",
+    "unforge/cache-abstraction": "dev-master",
     "unforge/array-toolkit": "dev-master",
-    "unforge/logger-toolkit": "dev-master",
-    "tarantool/client": "dev-master"
+    "unforge/logger-toolkit": "dev-master"
   },
   "require-dev": {
     "phpunit/phpunit": "~4.5",
